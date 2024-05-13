@@ -48,6 +48,7 @@ class Number{
 int main(){
     Number n1(20);
     int k=-n1;
+    cout<<k<<endl;
     n1+=5;
     n1.disp();
     Number n2(35);
