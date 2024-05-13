@@ -17,6 +17,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class sample{
-
+class Sample{
+    char ch;
+    public:
+    Sample(char ch){
+        this->ch=ch;
+    }
+    friend void display(Sample s);
 };
+void display(Sample s){
+    cout<<s.ch<<endl;
+}
+
+int main(){
+    Sample s('a');
+    display(s);
+}
