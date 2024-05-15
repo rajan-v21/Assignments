@@ -38,4 +38,6 @@ int main(){
     for(int i=0;i<3;i++){
         ptr[i]->start();
     }
+    //making Fourwheeler class object on heap
+    //FourWheeler **ptr = new FourWheeler*[3];
 }

@@ -20,6 +20,7 @@
 
 #include<bits/stdc++.h>
 using namespace std;
+class Minute;
 class Hour{
     private:
         int hr;
@@ -33,6 +34,9 @@ class Hour{
         int getHour(){
             return hr;
         }
+        int operator=(Minute &);
+        //here function call is not possible bcz function calling before 
+        //class declaration is not possible
 };
 class Minute{
     private:
@@ -47,11 +51,15 @@ class Minute{
         int getMinute(){
             return min;
         } 
-        operator Hour(){
-            return Hour(min/60);
-        }
+        // Direct conversion
+        // operator Hour(){
+        //     return Hour(min/60);
+        // }
 };
-
+int Hour::operator=(Minute &m){
+    hr = m.getMinute()/60;
+    return hr;
+}
 int main(){
     Hour h(12);
     Minute m(120);
