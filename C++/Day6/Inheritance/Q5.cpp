@@ -56,6 +56,5 @@ int main(){
         s[i]->draw();
         s[i]->display();
     }
-    
     return 0;
 }

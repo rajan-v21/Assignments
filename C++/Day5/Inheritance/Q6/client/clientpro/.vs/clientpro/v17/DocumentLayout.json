@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\#CDAC\\Assignments\\C\u002B\u002B\\Day5\\Inheritance\\Q6\\client\\clientpro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7A0D40-A3B0-4B37-92C6-1CD1B9223625}|clientpro.vcxproj|D:\\#CDAC\\Assignments\\C\u002B\u002B\\Day5\\Inheritance\\Q6\\client\\clientpro\\clientpro.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A7A0D40-A3B0-4B37-92C6-1CD1B9223625}|clientpro.vcxproj|solutionrelative:clientpro.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clientpro.cpp",
+              "DocumentMoniker": "D:\\#CDAC\\Assignments\\C\u002B\u002B\\Day5\\Inheritance\\Q6\\client\\clientpro\\clientpro.cpp",
+              "RelativeDocumentMoniker": "clientpro.cpp",
+              "ToolTip": "D:\\#CDAC\\Assignments\\C\u002B\u002B\\Day5\\Inheritance\\Q6\\client\\clientpro\\clientpro.cpp",
+              "RelativeToolTip": "clientpro.cpp",
+              "ViewState": "AQIAAAYAAABgZmZmZmYkwBEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-16T13:59:36.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
