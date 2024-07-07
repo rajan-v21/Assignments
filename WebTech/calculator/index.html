@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="Num1" placeholder="Number 1">
+    <input type="number" id="Num2" placeholder="Number 2">
+    <select id="op" onchange="calculate()">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select><br>
+
+    <input type="radio" id="add" name="cal" onclick="add()">Add
+    <input type="radio" id="sub" name="cal" onclick="sub()">Sub
+    <input type="radio" id="mul" name="cal" onclick="mul()">Mul
+    <input type="radio" id="div" name="cal" onclick="div()">Div
+
+    <p id="result">00</p>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

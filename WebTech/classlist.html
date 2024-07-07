@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red
+        {
+            background-color: bisque;
+            color: red;
+        }
+        .blue
+        {
+            background-color: bisque;
+            color: blue;
+        }
+        .green
+        {
+            background-color: bisque;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <p>Change <span id="para">COLOR</span></p>
+    <input type="radio" name="color"  value="red" onclick="change()">Red
+    <input type="radio" name="color" value="blue" onclick="change()">Blue
+    <input type="radio" name="color" value="green" onclick="change()">Green
+</body>
+<script>
+    function change(){
+        let txt= document.getElementById('para');
+        let btn= document.getElementsByTagName('input');
+        for(i in btn)
+        {
+            txt.classList.remove(btn[i].value)
+        }
+        for(i in btn)
+        {
+            if(btn[i].checked)
+            {
+                txt.classList.add(btn[i].value)
+            }
+        }
+    }
+
+</script>
+</html>

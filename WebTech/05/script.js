@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $("#un").focus();
+    $("#pw").focus();
+    $("#msg").hide();
+    $("#un").keyup(function(){
+        $("#msg").hide();
+    });
+    $("#pw").keyup(function(){
+        $("#msg").hide();
+    });
+    $("#un").click(function(){
+        $("#msg").hide();
+    });
+    $("#pw").click(function(){
+        $("#msg").hide();
+    });
+});

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Compare Text Box Values</h1>
+    <form id="compareForm">
+        <label for="textBox1">Text Box 1:</label>
+        <input type="text" id="textBox1" name="textBox1">
+        <label for="textBox2">Text Box 2:</label>
+        <input type="text" id="textBox2" name="textBox2">
+        <button type="button" onclick="compareValues()">Compare</button>
+    </form>
+    <p id="result">Result</p>
+
+    <script>
+        function compareValues() {
+            const textBox1 = document.getElementById('textBox1').value;
+            const textBox2 = document.getElementById('textBox2').value;
+            const result = document.getElementById('result');
+
+            if (textBox1 === textBox2) {
+                result.innerHTML = "The values are the same.";
+                result.style.color = "green";
+            } else {
+                result.innerHTML = "The values are different.";
+                result.style.color = "red";
+            }
+        }
+    </script>
+</body>
+</html>
